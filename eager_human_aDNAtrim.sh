@@ -4,7 +4,7 @@ module purge
 module use /apps/skl/modules/all
 module load Nextflow/21.03.0
 
-i=$1
+i=/hpcfs/groups/acad_users/leonard/PPRIII26/input_file_PPRIII26_Dylan_SG_HYB.tsv
 
 INPUT_FILE=${i}
 
